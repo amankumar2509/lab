@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./michal-parzuchowski-ItaV89TNkks-unsplash.jpg);
+    background-size: cover;
+}
+
+
+
+.nav{
+    background: transparent;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.nav ul li, active:hover{
+    color: red;
+}
+.nav ul li a:hover{
+    color: red; 
+}
+
+}
+.section1{
+    height: 50px;
+    background-color: #F4F4F2;
+}
+.section2{
+    font-size: 20px;  
+    margin-top: 250px;
+    margin-left: 110px;
+    
+}
+.section2 h1{
+    font-size: 80px; 
+    color: white;
+}
+.button{
+    display: flex;
+    margin-left: 110px;
+}
+.mybutton{
+             
+             text-decoration: none;
+             color: white;
+             display: block;
+             font-family: Arial;
+             margin-top: 10px;
+            border: 1px solid white;
+             padding: 10px 20px;
+             border-radius: 10px;
+               }
+        .mybutton:hover{
+            background-color: blue;
+        }       
+.bt2{
+    padding-left: 22px;
+}
